@@ -1,0 +1,86 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:2923), pid=288, tid=2916
+#  Error: ShouldNotReachHere()
+#
+# Java VM: Java HotSpot(TM) Client VM (11.0-b15 mixed mode windows-x86)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x025bc400):  JavaThread "Unknown thread" [_thread_in_vm, id=2916, stack(0x001f0000,0x00240000)]
+
+Stack: [0x001f0000,0x00240000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x025bc400 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=2916, stack(0x001f0000,0x00240000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	C:\Program Files (x86)\Java\jre6\bin\javaw.exe
+0x77660000 - 0x777e0000 	C:\Windows\SysWOW64\ntdll.dll
+0x76450000 - 0x76560000 	C:\Windows\syswow64\kernel32.dll
+0x74c60000 - 0x74ca6000 	C:\Windows\syswow64\KERNELBASE.dll
+0x76840000 - 0x768e0000 	C:\Windows\syswow64\ADVAPI32.dll
+0x76980000 - 0x76a2c000 	C:\Windows\syswow64\msvcrt.dll
+0x75120000 - 0x75139000 	C:\Windows\SysWOW64\sechost.dll
+0x76b70000 - 0x76c60000 	C:\Windows\syswow64\RPCRT4.dll
+0x748c0000 - 0x74920000 	C:\Windows\syswow64\SspiCli.dll
+0x748b0000 - 0x748bc000 	C:\Windows\syswow64\CRYPTBASE.dll
+0x76a30000 - 0x76b30000 	C:\Windows\syswow64\USER32.dll
+0x74a50000 - 0x74ae0000 	C:\Windows\syswow64\GDI32.dll
+0x763b0000 - 0x763ba000 	C:\Windows\syswow64\LPK.dll
+0x768e0000 - 0x7697d000 	C:\Windows\syswow64\USP10.dll
+0x74de0000 - 0x74e40000 	C:\Windows\system32\IMM32.DLL
+0x76560000 - 0x7662c000 	C:\Windows\syswow64\MSCTF.dll
+0x72740000 - 0x7275b000 	C:\Windows\SysWOW64\nvinit.dll
+0x7c340000 - 0x7c396000 	C:\Program Files (x86)\Java\jre6\bin\msvcr71.dll
+0x6d800000 - 0x6da56000 	C:\Program Files (x86)\Java\jre6\bin\client\jvm.dll
+0x76b30000 - 0x76b62000 	C:\Windows\syswow64\WINMM.dll
+0x71db0000 - 0x71dfc000 	C:\Windows\system32\apphelp.dll
+0x6d280000 - 0x6d288000 	C:\Program Files (x86)\Java\jre6\bin\hpi.dll
+0x75510000 - 0x75515000 	C:\Windows\syswow64\PSAPI.DLL
+0x6d7b0000 - 0x6d7bc000 	C:\Program Files (x86)\Java\jre6\bin\verify.dll
+0x6d320000 - 0x6d33f000 	C:\Program Files (x86)\Java\jre6\bin\java.dll
+0x6d7f0000 - 0x6d7ff000 	C:\Program Files (x86)\Java\jre6\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK -Xbootclasspath:D:\Android\AndroidSDK\platforms\android-15\android.jar 
+java_command: ServerSocket
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files (x86)\Java\jdk1.6.0_10
+CLASSPATH=C:\Program Files (x86)\Java\jdk1.6.0_10\lib\dt.jar;C:\Program Files (x86)\Java\jdk1.6.0_10\lib\tools.jar;.;D:\ËïöÎjava\eclipse-java-indigo-SR1-win32\eclipse\plugins
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 5, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.1 Build 7601 Service Pack 1
+
+CPU:total 4 (8 cores per cpu, 2 threads per core) family 6 model 5 stepping 5, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, ht
+
+Memory: 4k page, physical 3985884k(1768344k free), swap 4194303k(4194303k free)
+
+vm_info: Java HotSpot(TM) Client VM (11.0-b15) for windows-x86 JRE (1.6.0_10-rc2-b32), built on Sep 12 2008 00:52:11 by "java_re" with MS VC++ 7.1
+
+time: Sat Oct 06 20:17:31 2012
+elapsed time: 0 seconds
+
